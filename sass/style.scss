@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-family: 'Outfit', sans-serif;
+	background-color: hsl(217, 54%, 11%);
+	color: #fff;
+	height: 100vh;
+}
+
+.card {
+	width: 300px;
+	padding: 20px;
+	background-color: hsl(216, 50%, 16%);
+	color: hsl(215, 51%, 70%);
+	border-radius: 10px;
+	font-weight: 300;
+
+	&-main-img {
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	&-p {
+		padding: 20px 0;
+	}
+
+	&-info {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+
+	img {
+		margin-right: 5px;
+		/* to powoduje ze na osi Y pojdziemy w dół */
+		vertical-align: -3px;
+	}
+
+	&-eth {
+		color: hsl(178, 100%, 50%);
+	}
+
+	&-footer {
+		display: flex;
+		align-items: center;
+		padding-top: 20px;
+		border-top: 1px solid hsl(215, 32%, 27%);
+
+		&-img {
+			width: 35px;
+			height: 35px;
+			margin-right: 10px;
+			border: 1px solid white;
+			border-radius: 50%;
+		}
+
+		&-span {
+			color: #fff;
+		}
+	}
+}
+
+h2 {
+	color: white;
+}
