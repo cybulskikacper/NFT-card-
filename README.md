@@ -1,4 +1,5 @@
 
 
 
-## [Live demo](https://github.com/cybulskikacper/NFT-card-component)
+
+## [Live demo](https://cybulskikacper.github.io/NFT-card-component/)
